@@ -1,49 +1,25 @@
 ## Members
-Henry Forsyth, Computer Engineering Student (2024)
-rhforsythjr@vt.edu
-
-## Mentor
-MENTOR NAME HERE
+Pacheck Nicholas
 
 ## Current Status
-IN PROGRESS
+This github repo contains a few scripts I wrote during my enrollemnt in the MIT uMastersProgram for Data Science and Machine Learning. I sadly lost all my other scripts but this still contains some interesting stuff like perceptrons kernals, and a bit of intro to SVM.
 
-## Project Overview
+This GitHub repository provides a collection of Python scripts designed for stock analysis using the Kalman Filter, various utility functions for data manipulation and visualization, machine learning algorithms for classification, and numerical operations with NumPy. Below is a summary of each script included in the repository:
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vehicula, odio eu dictum aliquet, enim elit tempor diam, quis volutpat mi eros ut nisi. Aliquam luctus orci eget accumsan porta. Proin sollicitudin ultricies lacus et varius. Pellentesque tempor vehicula tempus. Integer semper id lorem vehicula tristique. Suspendisse nec placerat libero, eget aliquet eros. Phasellus iaculis quis lorem in ultrices. Nunc lobortis odio at sem pretium dictum. Integer sed tellus quis lorem pretium posuere.
+**kalman_stock.py:** Implements the Kalman Filter for stock data analysis, including classes for filtering and data retrieval, and a visualization component using matplotlib.
 
-## Educational Value Added
+**myUtiils.py:** Contains utility functions for data processing, such as sentiment analysis, dataset management, hyperparameter tuning, and plotting decision boundaries.
 
-Vivamus dapibus iaculis dui. Nullam vitae arcu a nisi elementum semper eu eu velit. Suspendisse vel dictum lacus. Sed facilisis luctus consequat. Donec vulputate eu dolor in molestie. Maecenas pretium sem non tellus facilisis sollicitudin id ut nulla. In condimentum orci nisi, sagittis facilisis neque convallis eget. Duis ut sem cursus, placerat mi pellentesque, mollis eros. Integer efficitur blandit elit, sed egestas sem porta in. Mauris euismod nulla ac tellus tempus, eu egestas dui molestie. Proin faucibus enim quis consequat sodales. Pellentesque eleifend blandit augue et laoreet. Phasellus vel posuere nisi, ac aliquam arcu.
+**ComputeHingeLoss.py:** Provides functions to calculate hinge loss and squared error loss, essential for evaluating machine learning models.
 
-## Tasks
+**numpy_UNIT0.py:** Demonstrates various NumPy array operations, basic arithmetic, norm calculations, and a simple neural network example.
 
-<!-- Your Text Here. You may work with your mentor on this later when they are assigned -->
+**PlottingModule.py:** Features a DataPlotter class for plotting functions, interpolating data, and array visualization.
 
-## Design Decisions
+**PerceptionAlgorithm.py**: Contains the implementation of the perceptron algorithm for binary classification, including utility functions for feature vector creation and sign determination.
 
-<!-- Your Text Here. You may work with your mentor on this later when they are assigned -->
+**Project1MIT_writeable.py:** Offers a comprehensive suite of functions and implementations for machine learning tasks, including the perceptron algorithm, Pegasos algorithm, feature extraction, and accuracy evaluation.
 
-## Design Misc
+Additional scripts (PSET2_P1b.py, writeable_test_project1.py) are included for supplementary examples and testing of the algorithms and functions provided.
 
-<!-- Your Text Here. You may work with your mentor on this later when they are assigned -->
-
-## Steps for Documenting Your Design Process
-
-<!-- Your Text Here. You may work with your mentor on this later when they are assigned -->
-
-## BOM + Component Cost
-
-<!-- Your Text Here. You may work with your mentor on this later when they are assigned -->
-
-## Timeline
-
-<!-- Your Text Here. You may work with your mentor on this later when they are assigned -->
-
-## Useful Links
-
-<!-- Your Text Here. You may work with your mentor on this later when they are assigned -->
-
-## Log
-
-<!-- Your Text Here. You may work with your mentor on this later when they are assigned -->
+This toolkit is designed to be modular, allowing users to leverage individual scripts or components as needed for their specific data analysis and machine learning tasks. Whether you're analyzing stock data, building classification models, or simply exploring numerical operations with Python, this repository offers a range of tools to assist in your endeavors.
